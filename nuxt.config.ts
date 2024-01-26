@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -9,8 +9,9 @@ export default defineNuxtConfig({
     },
   },
   typescript: {
-    typeCheck: true
+    typeCheck: true,
+    strict: true,
   },
-  modules: ['nuxt-icon'],
+  modules: ["nuxt-icon"],
   ssr: true,
-})
+});

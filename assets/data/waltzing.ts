@@ -16,11 +16,33 @@ export const versions: VersionInfo[] = [
         breakdown: {
             "flute": { valid: true },
             "glokenspiel": { valid: true },
-            "violin1": { valid: true, major: "changed measures 35-36, 67-68", minor: "added better instruction on m. 31, added staccato-tenuto on m. 33-34" },
-            "violin2": { valid: true, major: "changed measures 33-35, 65-67, 102-103", minor: "added staccato-tenuto marking on m. 33-34" },
-            "violin3": { valid: true, major: "changed measures 32, 64, 67, 102-103", minor: "added staccato-tenuto marking on m. 33-34" },
-            "violoncello": { valid: true, major: "changed measures 29-32, 61-62, 67", minor: "added staccato-tenuto marking on m. 33, fixed crescendo placement on 107" },
-            "contrabass": { valid: true, minor: "added staccato-tenuto marking on m. 33" },
+            "violin1": {
+                valid: true,
+                major: "changed measures 35-36, 67-68",
+                minor: [
+                    "added better instruction on m. 31",
+                    "added staccato-tenuto on m. 33-34"
+                ]
+            },
+            "violin2": {
+                valid: true,
+                major: "changed measures 33-35, 65-67, 102-103",
+                minor: ["added staccato-tenuto marking on m. 33-34"]
+            },
+            "violin3": {
+                valid: true,
+                major: "changed measures 32, 64, 67, 102-103",
+                minor: ["added staccato-tenuto marking on m. 33-34"]
+            },
+            "violoncello": {
+                valid: true,
+                major: "changed measures 29-32, 61-62, 67",
+                minor: [
+                    "added staccato-tenuto marking on m. 33",
+                    "fixed crescendo placement on 107"
+                ]
+            },
+            "contrabass": { valid: true, minor: ["added staccato-tenuto marking on m. 33"] },
         }
     },
     {

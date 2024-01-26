@@ -4,7 +4,7 @@ export type VersionInfo = {
         [s in string]: {
             valid: boolean;
             major?: string;
-            minor?: string;
+            minor?: string[];
         };
     }
 };
