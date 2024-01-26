@@ -1,10 +1,12 @@
 export type VersionInfo = {
     name: string;
-    breakdown: Required<{
+    breakdown: {
         [s in string]: {
             valid: boolean;
+            major?: string;
+            minor?: string;
         };
-    }>
+    }
 };
 
 export type PartInfo = {
