@@ -10,11 +10,11 @@ const slideCount = 2;
 
 <template>
   <div class="page-index">
-    <div class="fixed h-screen w-screen top-0 left-0 flex justify-center items-center">
+    <div class="bg-neutral-700 fixed h-screen w-screen top-0 left-0 flex justify-center items-center">
       <div>
         <div class="w-fit mb-2 translate ease-in-out duration-500 max-h-screen" :class="rotateClass[rotate]">
-          <NuxtImg v-if="slide === 0" class="max-w-[100vw] max-h-[90vh]" preload src="/performance-info.jpg" alt="performance info" placeholder />
-          <NuxtImg v-if="slide === 1" class="max-w-[100vw] max-h-[90vh]" preload src="/concert-info.jpeg" alt="concert info" placeholder />
+          <NuxtImg v-if="slide === 0" class="max-w-[100vw] max-h-[90vh]" src="/performance-info.jpg" alt="performance info" placeholder />
+          <NuxtImg v-if="slide === 1" class="max-w-[100vw] max-h-[90vh]" src="/concert-info.jpeg" alt="concert info" placeholder />
         </div>
         <div class="flex justify-between gap-4">
           <ActionButton @click="rotate = (rotate + 1) % rotateClass.length">
@@ -31,9 +31,3 @@ const slideCount = 2;
     </div>
   </div>
 </template>
-
-<style>
-body {
-  background-color: #444;
-}
-</style>
