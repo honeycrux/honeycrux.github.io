@@ -13,7 +13,7 @@ defineProps<Props>();
   <div class="grid grid-cols-[min-content_1fr] items-center m-0.5 hover:bg-stone-100 rounded-lg">
     <div>
       <Icon v-if="valid" name="lets-icons:check-fill" color="green" class="mr-2" />
-      <Icon v-else name="lets-icons:cancel-fill" color="#d33" class="mr-2" />
+      <Icon v-else name="lets-icons:dell-fill" color="#d33" class="mr-2" />
     </div>
     <div>
       <span>{{ name }}</span>

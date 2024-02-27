@@ -34,7 +34,7 @@ import { versions, parts } from "assets/data/waltzing";
                   Your score is still valid.
                 </li>
                 <li>
-                  A part with a <span class="font-bold">cross (<Icon name="lets-icons:cancel-fill" color="#d33" size="20" />)</span> has undergone some major changes in later versions.
+                  A part with a <span class="font-bold">cross (<Icon name="lets-icons:dell-fill" color="#d33" size="20" />)</span> has undergone some major changes in later versions.
                   Your score is invalidated.
                 </li>
                 <li>In both cases, you can scroll up to review all major and minor changes from newer versions and perform necessary actions to play correctly.</li>
